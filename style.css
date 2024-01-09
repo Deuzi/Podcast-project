@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    border: 0;
+}
+html, body{
+    overflow-x: hidden;
+    font-size: 12px;
+}
+
+#hero-section{
+    background-color: #000000;
+    color: #ffff;
+    padding: 20px 7rem;
+}
+.header-items{
+    display: flex;
+    justify-content: space-between;
+}
+.main__nav{
+    display: flex;
+}
+.main__nav a{
+    color: #ffff;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+.header-items .login-btn{
+    margin-right: 10rem;
+    border: #920f92 1px solid;
+    padding: 0.75rem 2rem;
+    border-radius: 4px;
+}
+.header-items .login-btn:hover{
+    cursor: pointer;
+}
+.search-loging-sec{
+    display: flex;
+}
+.search-loging-sec img{
+    padding-top: 0.80rem;
+    margin-right: 3rem;
+    
+}
+.search-loging-sec img:hover{
+    cursor: pointer;
+}
+
+.hero-section-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 5rem;
+}
+.hero-section-text-container .switch{
+    display: flex;
+    background-color: #383737;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.switch .first{
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.switch .first:hover, .second:hover{
+    background-color: #8d18b1;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0.45rem;
+}
+
+.hero-section-text-container .intro h2{
+    font-size: 4rem;
+    max-width: 350px;
+}
+
+.hero-section-text-container .intro p{
+    font-size: 1.5rem;
+    max-width: 500px;
+}
+
+.go-to{
+    background-color: #8d18b1;
+    padding: 0.75rem 1rem;
+    margin: 1rem 0rem;
+}
+.hero-section-text-container .users-update{
+    display: flex;
+}
+
+.hero-section-text-container .users-update img{
+    width: 30px ;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: -0.65rem;
+    border: #920f92 1px solid;
+}
+.users-update #update-img-1{
+    z-index: 1;
+}
+.users-update #update-img-2{
+    z-index: 2;
+}
+.users-update #update-img-3{
+    z-index: 3;
+}
+.users-update #update-img-4{
+    z-index: 4;
+}
+
+.users-update #update-img-4 ~ h4{
+    font-size: 10px;
+    z-index: 5;
+    border: #920f92 1px solid;
+    border-radius: 50%;
+    padding: 0.85rem 0.45rem;
+    background-color: #383737;
+    margin-left: -0.65rem;
+}
+
+.users-update h4 ~ h5{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+
