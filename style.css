@@ -172,6 +172,56 @@ html, body{
     opacity: 0.85;
 }
 
+#career-path-section{
+    background-color: #000000;
+    color: #ffff;
+    padding: 20px 7rem;
+}
+.first-ent-img{
+    background-color: #8d18b1;
+    padding: 5rem;
+    border: #ffff solid 1px;
+    border-radius: 100px 0px/ 100px 0px;
+}
+.first-ent-img img{
+    border-radius: 7px;
+    height: 200px;
+}
+.first-ent-items{
+    display: flex;
+    justify-content: space-between;
+}
+.first-ent-items .write-up{
+    padding-left: 6rem;
+}
+.write-up .ep-choice{
+    display: inline-block;
+    background-color: #383737;
+    border-radius: 15px;
+    padding: 0.65rem;
+}
+.ep-choice-items #ep-holder{
+    margin-right: 1rem;
+}
+.ep-choice .ep-choice-items{
+    display: flex;
+}
+.main-write-up h3{
+    font-size: 4rem;
+}
+.main-write-up p{
+    font-size: 1.2rem;
+}
+
+.write-up .pod-play-butn{
+    display: inline-flex;
+    background-color: #8d18b1;
+    border-radius: 2px;
+    padding:0.55rem 1.25rem ;
+}
+.write-up .pod-play-butn p{
+    margin-top: 0.45rem;
+}
 
 
 
