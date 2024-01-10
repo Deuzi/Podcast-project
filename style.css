@@ -5,6 +5,7 @@
 html, body{
     overflow-x: hidden;
     font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #hero-section{
@@ -64,7 +65,7 @@ html, body{
     font-weight: bold;
 }
 
-.switch .first:hover, .second:hover{
+.switch .first:active, .second:active{
     background-color: #8d18b1;
     border-radius: 10px;
     cursor: pointer;
@@ -124,5 +125,53 @@ html, body{
     padding-top: 1rem;
     padding-left: 1rem;
 }
+
+#popular-creators{
+    background-color: #582f6d;
+    color: #ffff;
+    padding: 20px 7rem;
+}
+.heading  #heading-M{
+    font-size: 55px;
+    max-width: 550px;
+}
+.heading #bold-spooked{
+    color: #8d18b1;
+}
+.heading #heading-E{
+    max-width: 330px;
+    padding-right: 10rem;
+    font-size: 19px;
+    opacity: 0.75;
+}
+.popular-creators-sec-items .heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.most-popular-sec-imgs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.most-popular-sec-imgs img{
+    height: 230px;
+    width: 270px;
+    border: #920f92 solid 1px;
+    border-radius: 7px;
+
+}
+.most-popular-sec-imgs figcaption{
+    max-width: 270px;
+}
+.most-popular-sec-imgs figcaption h3{
+    font-size: 19px;
+}
+.most-popular-sec-imgs figcaption p{
+    font-size: 10px;
+    opacity: 0.85;
+}
+
+
 
 
