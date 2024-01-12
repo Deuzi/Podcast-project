@@ -241,11 +241,23 @@ html, body{
 }
 
 .shuffle ul{
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
     list-style-type: none;
 }
-.shuffle li{
+.shuffle li {
     background-color: #8d18b1;
+    padding: 0.55rem 2rem;
+    border-radius: 10px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.shuffle li:hover{
+    opacity: 1;
+}
+.shuffle .first{
+    background-color: #8d18b1;
+    opacity: 1;
 }
 
 
