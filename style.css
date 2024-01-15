@@ -262,3 +262,44 @@ html, body{
 
 
 
+.the-main-pod-page{
+    margin: 3rem 6rem;
+}
+.main-pod-page-items .andy-budd {
+    background-color: #383737;
+    color: #ffff;
+    border: #ffff solid 1px;
+    border-radius: 10px;
+    padding: 2rem;
+}
+.andy-budd img{
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+}
+.andy-budd .the-img{
+    position: relative;
+}
+
+#andys-img .the-img img ~ p{
+    position: static;
+}
+.main-pod-page-items #andys-img{
+    display: flex;
+}
+
+#andys-img figcaption{
+    margin-left: 3rem;
+}
+
+#andys-img figcaption h2, p, label{
+    margin-bottom: 0.85rem;
+}
+#andys-img figcaption input ~ label > p > #arrow{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
